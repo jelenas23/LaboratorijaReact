@@ -4,13 +4,15 @@ import HomePage from './components/HomePage';
 
 function App() {
   
+  return(
   <div className="main-div">
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage/>} />
+        <Route path="/" element={<HomePage/ >} />
       </Routes>
     </Router >
   </div>
+  );
 }
 
 export default App;
